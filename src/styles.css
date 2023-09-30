@@ -1,0 +1,21 @@
+.List {
+  border: 1px solid black;
+  border-radius: 3px;
+
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+
+  min-height: 150px;
+  min-width: 150px;
+}
+
+.App {
+  display: grid;
+  place-items: center;
+}
+.Container {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
